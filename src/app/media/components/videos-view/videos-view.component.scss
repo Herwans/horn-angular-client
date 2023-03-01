@@ -1,0 +1,16 @@
+.player {
+  color: #F1F1F1;
+  margin: .5rem auto auto;
+  max-width: 1280px;
+  h1 {
+    padding: .4rem 0;
+  }
+  video {
+    display: block;
+    border: 1px solid #F1F1F1;
+    width: 100%;
+    max-width: 1280px;
+    max-height: 720px;
+
+  }
+}

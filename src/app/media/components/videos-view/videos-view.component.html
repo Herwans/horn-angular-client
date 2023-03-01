@@ -1,0 +1,7 @@
+<section class="player">
+  <h1>{{ video.title }}</h1>
+  <video
+    *ngIf="media"
+    [src]="media"
+    controls></video>
+</section>

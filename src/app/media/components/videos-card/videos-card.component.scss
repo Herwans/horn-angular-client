@@ -1,0 +1,101 @@
+$width: 330px;
+$height: calc($width / 16 * 9);
+
+.video-card {
+  margin: 5px;
+  width: $width;
+  height: $height;
+  position: relative;
+  cursor: pointer;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .card-mask, .card-details {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3.4rem;
+  }
+
+  .card-mask {
+    background: rgba(255, 255, 255, 0.32);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+  }
+
+  .card-details {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    figcaption {
+      font-weight: 700;
+      font-size: 1.1rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
+
+  .video-duration {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    color: #dedede;
+    background: #313131;
+    border-radius: 30px;
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+}
+/*
+  .card-image-container {
+    height: 203px;
+    position: relative;
+
+    span {
+      position: absolute;
+      bottom: 7px;
+      right: 7px;
+      color: #dedede;
+      background: rgba(0,0,0,0.5);
+      border-radius: 3px;
+      padding: 1px 5px;
+      font-size: 0.9rem;
+    }
+  }
+  .card-details {
+    padding: 5px 10px;
+    background: #1c1c1c;
+    color: #dedede;
+    figcaption {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: 700;
+    }
+  }
+  .card-buttons {
+    .card-button {
+      font-size: 1rem;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      width: 100%;
+      border: none;
+      border-bottom: 3px solid #d42f2f;
+
+      &:active {
+        background: #1c1c1c;
+      }
+    }
+  }
+}
+*/

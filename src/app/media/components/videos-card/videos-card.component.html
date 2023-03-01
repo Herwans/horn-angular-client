@@ -1,0 +1,11 @@
+<figure class="card video-card" (click)="onWatch()">
+  <img [src]="video.thumbnail" [alt]="video.title"/>
+  <div class="video-duration">{{video.duration}}</div>
+  <div class="card-mask"></div>
+  <div class="card-details">
+    <figcaption>{{video.title}}</figcaption>
+    <p>
+      {{video.createdAt | date: 'YYYY/MM/dd'}}
+    </p>
+  </div>
+</figure>

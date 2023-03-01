@@ -1,0 +1,17 @@
+.viewer {
+  color: #F1F1F1;
+  margin: .5rem auto auto;
+  max-width: 1280px;
+  h1 {
+    padding: .4rem 0;
+  }
+  img {
+    margin: auto;
+    object-fit: contain;
+    display: block;
+    border: 1px solid #F1F1F1;
+    max-width: 1280px;
+    max-height: 720px;
+
+  }
+}

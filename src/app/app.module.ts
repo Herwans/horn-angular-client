@@ -8,6 +8,9 @@ import {VideosCardComponent} from './media/components/videos-card/videos-card.co
 import {VideosListComponent} from './media/components/videos-list/videos-list.component';
 import {VideosViewComponent} from './media/components/videos-view/videos-view.component';
 import {HttpClientModule} from "@angular/common/http";
+import { ImagesCardComponent } from './media/components/images-card/images-card.component';
+import { ImagesViewComponent } from './media/components/images-view/images-view.component';
+import { ImagesListComponent } from './media/components/images-list/images-list.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import {HttpClientModule} from "@angular/common/http";
     HeaderComponent,
     VideosCardComponent,
     VideosListComponent,
-    VideosViewComponent
+    VideosViewComponent,
+    ImagesCardComponent,
+    ImagesListComponent,
+    ImagesViewComponent
   ],
   imports: [
     BrowserModule,

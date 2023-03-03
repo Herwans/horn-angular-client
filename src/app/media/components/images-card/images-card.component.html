@@ -1,0 +1,10 @@
+<figure class="card image-card" (click)="onWatch()">
+  <img [src]="image.thumbnail" [alt]="image.title"/>
+  <div class="card-mask"></div>
+  <div class="card-details">
+    <figcaption>{{image.title}}</figcaption>
+    <p>
+      {{image.createdAt | date: 'YYYY/MM/dd'}}
+    </p>
+  </div>
+</figure>

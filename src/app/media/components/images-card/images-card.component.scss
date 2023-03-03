@@ -1,10 +1,8 @@
-$width: 330px;
-$height: calc($width / 16 * 9);
+$side: 300px;
 
-.video-card {
-  margin: 5px;
-  width: $width;
-  height: $height;
+.image-card {
+  width: $side;
+  height: $side;
   position: relative;
   cursor: pointer;
   img {
@@ -43,16 +41,5 @@ $height: calc($width / 16 * 9);
     p {
       font-size: 0.8rem;
     }
-  }
-
-  .video-duration {
-    position: absolute;
-    top: .5rem;
-    right: .5rem;
-    color: #dedede;
-    background: #313131;
-    border-radius: 30px;
-    padding: 5px 10px;
-    font-size: 0.8rem;
   }
 }

@@ -27,8 +27,4 @@ export class VideosViewComponent implements OnInit {
     const URL = window.URL;
     this.media = this.sanitizer.bypassSecurityTrustUrl(URL.createObjectURL(blobVideo));
   }
-
-
-
-
 }

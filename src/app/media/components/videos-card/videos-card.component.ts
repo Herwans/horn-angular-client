@@ -9,10 +9,11 @@ import {Router} from "@angular/router";
 })
 export class VideosCardComponent implements OnInit {
   @Input() video!: Video;
+
   constructor(private router: Router) {
   }
+
   ngOnInit(): void {
-    this.video.thumbnail = "";
     this.video.duration = "99:99:99";
   }
 

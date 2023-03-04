@@ -1,5 +1,5 @@
-<figure class="card image-card" (click)="onWatch()">
-  <img [src]="image.thumbnail" [alt]="image.title"/>
+<figure (click)="onWatch()" class="card image-card">
+  <img [alt]="image.title" [src]="thumbnail"/>
   <div class="card-mask"></div>
   <div class="card-details">
     <figcaption>{{image.title}}</figcaption>

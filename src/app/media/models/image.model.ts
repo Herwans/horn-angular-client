@@ -3,9 +3,9 @@ export class Image {
   title: string;
   path: string;
   createdAt: Date;
-  thumbnail?: string;
+  thumbnail: any;
 
-  constructor(id: number, title: string, path: string, createdAt: Date, thumbnail?: string) {
+  constructor(id: number, title: string, path: string, createdAt: Date, thumbnail: any) {
     this.id = id;
     this.title = title;
     this.path = path;
